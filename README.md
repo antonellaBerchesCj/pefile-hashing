@@ -1,12 +1,6 @@
 # pefile-hashing
 
 Details:
-- get kernel32.dll and user32.dll export functions and hash them (used rol + xor)
-- using COMSPEC take cmd control and delete the exe file  (/c del "file.exe.new") !showWindow mode
-- using WriteProcessMemory function to write multiple bytes into the process. The written buffer contains the method URLDownloadToFile which download data from an infected link and put them into the file  c:\\1.exe
-
-
-More specific:
    -  First off it loads kernel32.dll and searches for the export directory and in it it finds the number of names, address of functions (addresses to exported functions).
    - The program has stored some hashed (names of) functions.
    - The hash consists of a rol and a xor
