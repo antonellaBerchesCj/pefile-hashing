@@ -30,7 +30,7 @@ Details:
     ResumeThread
     GetThreadContext
     
-    Creates a new process in suspended mode
+  - Creates a new process in suspended mode
     Inserts in the new process code which downloads from http://user.free2.77169.net/meimeileyuan/2.exe the executable using URLDownloadToFileA from urlmon and saves it as c:\\1.exe
-    Runs 1.exe
-    Uses cmd to delete itself
+  - Runs 1.exe
+  - Uses cmd to delete itself
