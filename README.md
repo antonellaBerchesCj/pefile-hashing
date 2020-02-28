@@ -1,5 +1,4 @@
 # pefile-hashing
-Python
 
 Details:
 - get kernel32.dll and user32.dll export functions and hash them (used rol + xor)
